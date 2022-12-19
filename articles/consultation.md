@@ -7,7 +7,9 @@ published: true
 published_at: 2022-12-22 00:00
 ---
 
-:::message この記事は [LITALICO Engineers Advent Calendar 2022](https://qiita.com/advent-calendar/2022/litalico)のカレンダー3の22日目の記事です :::
+:::message
+この記事は [LITALICO Engineers Advent Calendar 2022](https://qiita.com/advent-calendar/2022/litalico)のカレンダー3の22日目の記事です
+:::
 
 # はじめに
 仕事で問い合わせや相談をする/受ける機会が結構多いので、自分が問い合わせや相談をする際に意識していることを自戒の念を込めて書いていきます。
