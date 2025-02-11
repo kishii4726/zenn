@@ -3,7 +3,7 @@ title: "【eclogin】ECS/EC2/Local docker containerにログインするため�
 emoji: "🦉"
 type: "tech"
 topics: ["aws", "ecs", "ec2", "docker", "cli"]
-published: false
+published: true
 ---
 
 # eclogin
@@ -35,7 +35,7 @@ Flags:
   -t, --task-id string     ECS task ID
 ```
 
-対話形式ですべての必要な選択肢を選んだ後に以下のようにオプション形式で実行した場合のコマンド例が出力されます。複数回同じコンテナやEC2インスタンスにログインしたい場合にはこちらをコピーして使うと次回実行時が楽になります。
+対話形式ですべての必要な選択肢を選んだ後に以下のようにオプション形式で実行した場合のコマンド例が出力されます。複数回同じコンテナやEC2インスタンスにログインしたい場合にはこちらをコピーして使うと次回実行時に楽です。
 ```
 eclogin equivalent command:
 eclogin ecs --cluster test-cluster --task-id xxxxxxxx --container test-container --shell /bin/sh --region ap-northeast-1
@@ -80,5 +80,5 @@ $ sudo mv eclogin /usr/local/bin
 ```
 
 # やっていないこと
-- ECSクラスターやECSサービス数が100を超えた場合の対応
+- ECSサービス数などが100を超えた場合の対応
 - ECS Exec時にローカルクライアントとコンテナ間のデータ暗号化にkMSキーが使用されている場合の対応
