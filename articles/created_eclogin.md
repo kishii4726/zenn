@@ -78,3 +78,7 @@ $ tar -zxvf eclogin_Linux_x86_64.tar.gz
 
 $ sudo mv eclogin /usr/local/bin
 ```
+
+# やっていないこと
+- ECSクラスターやECSサービス数が100を超えた場合の対応
+- ECS Exec時にローカルクライアントとコンテナ間のデータ暗号化にkMSキーが使用されている場合の対応
